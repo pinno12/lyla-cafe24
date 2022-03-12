@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head> <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.glitch.global/8657dc2f-8c69-4475-8db4-5342bbb07627/favicon.png?v=1645356446394"> 
+    <meta name="naver-site-verification" content="1bb8749c8a725452ea114f673eec7a6177bfb837"/>
+  <meta property="og:title" content="LYLA">
+<meta property="og:description" content="Designer Brand LYLA">
+   <meta property="og:image" content="/artfinger/img/og2.png">
+
+<meta name="naver-site-verification" content="f6e81af3cdff8db484695803dd4df63a2a376cb1" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--PG크로스브라우징필수내용 시작-->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <!--PG크로스브라우징필수내용 끝-->
+
+    <title>오키도키</title>
+    <!--@css(/layout/basic/css/common.css)--><!--해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요.-->
+    <!--@css(/layout/basic/css/layout.css)-->
+    <!--@css(/layout/basic/css/ec-base-ui.css)-->
+    <!--@css(/layout/basic/css/ec-base-tooltip.css)-->
+    <!--@css(/layout/basic/css/ec-base-help.css)-->
+    <!--@css(/layout/basic/css/ec-base-product.css)-->
+    <!--@css(/layout/basic/css/ec-base-paginate.css)-->
+    <!--@css(/layout/basic/css/ec-base-tab.css)-->
+    <!--@css(/layout/basic/css/ec-base-button.css)-->
+    <!--@css(/layout/basic/css/ec-base-box.css)-->
+    <!--@css(/layout/basic/css/ec-base-table.css)-->
+    <!--@css(/layout/basic/css/ec-base-desc.css)-->
+
+    <!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+    <!--@js(/layout/basic/js/basic.js)-->
+    <!--@js(/js/common.js)-->
+    <!--@js(/js/module/layout/quick_view.js)-->
+    <script type="text/javascript" src="/ec-js/common.js"></script><!-- 해당 JS는 플래시를 사용하기 위한 스크립트입니다. -->
+    
+     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  
+    <!--@js(/js/leftmenu.js)-->
+  <script src="/web/upload/js/pullpgae.js"></script><!-- 타이틀이미지 -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65945715-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65945715-5');
+</script>
+
+    
+    
+</head>
+<body id="main">
+
+   
+    
+<div id="skipNavigation">
+    <p><a href="#category">전체상품목록 바로가기</a></p>
+    <p><a href="#contents">본문 바로가기</a></p>
+</div>
+
+<script type=text/javascript>
+$(document).ready(function(){
+        
+    $(".top").hide(); // 탑 버튼 숨김
+    $(function () {
+                 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) { // 스크롤 내릴 표시
+                $('.top').fadeIn();
+            } else {
+                $('.top').fadeOut();
+            }
+        });
+                
+        $('.top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);  // 탑 이동 스크롤 속도
+            return false;
+        });
+    });
+ 
+});
+</script>
+<a class="top" href="#" ><img src="/artfinger/img/top.jpg"></a>
+    
+   
+  
+<div id="header-left">
+
+ 
+        <h1 module="Layout_LogoTop">
+            <!--@css(/css/module/layout/logotop.css)-->
+            <a href="/index.html"><img src="https://cdn.glitch.global/8657dc2f-8c69-4475-8db4-5342bbb07627/lyla.png?v=1645344821359" alt="{$mall_name}" width="80%"/></a>
+        </h1>
+        
+        
+      <!--@import(/leftmenu.html)-->
+        
+       <!-- <div module="Layout_SearchHeader">
+            <!--@css(/css/module/layout/searchHeader.css)-->
+            <!--
+                $product_page=/product/detail.html
+                $category_page=/product/list.html
+            -->
+              <!--  <fieldset>
+                <legend>검색</legend>
+                {$form.keyword}<input type="image" src="http://img.echosting.cafe24.com/skin/base/layout/btn_search.gif" alt="검색" onclick="{$action_search_submit}" /></fieldset>
+        </div>
+    </div>-->
+
+    <div module="Layout_multishopList" class="list">
+        <!--@css(/css/module/layout/multishopList.css)-->
+        <button type="button" class="toggle"><span><img src="http://img.cafe24.com/img/common/global/{$current_language_code}_18x12.png" alt="" /> {$current_language}</span></button>
+        <ul module="Layout_multishopListitem">
+            <li class="{$selected_class}">
+                <a href="http://{$shop_domain}/">
+                    <img src="http://img.cafe24.com/img/common/global/{$language}_32x24.png" alt="" />
+                    <span class="name">{$locale_language}</span>
+                    <span class="unit">{$currency_code}</span>
+                </a>
+            </li>
+            <li class="{$selected_class}">
+                <a href="http://{$shop_domain}/">
+                    <img src="http://img.cafe24.com/img/common/global/{$language}_32x24.png" alt="" />
+                    <span class="name">{$locale_language}</span>
+                    <span class="unit">{$currency_code}</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div module="Layout_multishopList" class="thumb">
+        <!--@css(/css/module/layout/multishopList.css)-->
+        <ul module="Layout_multishopListitem">
+            <li>
+                <a href="http://{$shop_domain}/"><img src="http://img.cafe24.com/img/common/global/{$language}_32x24.png" alt="" /></a>
+            </li>
+            <li>
+                <a href="http://{$shop_domain}/"><img src="http://img.cafe24.com/img/common/global/{$language}_32x24.png" alt="" /></a>
+            </li>
+        </ul>
+        <div module="Layout_multishopListmultioption" class="multiOption">
+            <a href="#none">
+                <span module="Layout_multishopListmultioptionCountry" class="ship">
+                    <strong>Ship to</strong><span> : </span>
+                </span>
+                <span module="Layout_multishopListmultioptionLanguage" class="language">
+                    <strong>Language</strong><span> : <img src="//img.cafe24.com/img/common/global/{$language_code}_32x24.png" alt="" />{$language_name}</span>
+                </span>
+            </a>
+        </div>
+    </div>
+
+
+  
+
+</div><hr class="layout" />
+    
+<div class="header-right">
+    <div module="Layout_statelogoff">
+        <!--@css(/css/module/layout/statelogoff.css)-->
+        <a href="/board/free/list.html?board_no=1">COMMUNITY</a>
+        <a href="/member/login.html">LOGIN</a>
+        <a href="/member/join.html">JOIN</a>
+            <a href="/myshop/index.html">MYPAGE</a>
+        <a href="/order/basket.html"><img src="/artfinger/img/btn_cart.png"> <span class="count {$basket_count_display|display} {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span></a>
+   
+    
+    </div>
+
+    <div module="Layout_stateLogon">
+        <!--@css(/css/module/layout/statelogon.css)-->
+        <a href="{$action_logout}" >LOGOUT</a>
+        <a href="/member/modify.html">MODIFY</a>
+        
+          <a href="/myshop/index.html">MYPAGE</a>
+        <a href="/order/basket.html"><img src="/artfinger/img/btn_cart.png"> <span class="count {$basket_count_display|display} {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span></a>
+    </div>
+</div>  
+<div id="wrap">
+    
+       <!--@css(/fullscreen.css)-->
+    
+  <!--<div class="page">
+     <ul id="menu">
+     <li data-menuanchor="firstSection"><a href="#firstSection" title="First Section">First Section</a></li>
+     <li data-menuanchor="secondSection"><a href="#secondSection" title="Second Section">Second Section</a></li>
+     <li data-menuanchor="thirdSection"><a href="#thirdSection" title="Second Section">Third Section</a></li>
+     <li data-menuanchor="fourthSection"><a href="#fourthSection" title="Fourth Section">Fourth Section</a></li>
+     </ul>    
+  </div> -->
+
+    
+    
+   
+
+
+    
+  
+
+<!-- ************** 메인이미지 시작-->
+    
+<div id="fullpage">
+  <section class="vertical-scrolling">
+    
+    <div class="first-scroll" >
+<!-- 메인 이미지 첫번째 이미지 #을 지우고 링크를 넣어주세요.--><a class="firstimg" style='background: url("/artfinger/main/new/main01.jpg") no-repeat 50% 50% / cover;' href="/product/list.html?cate_no=86l"></a>
+        
+   <div class="scroll_"><a href="#secondSection"><p style="margin:0 0 10px">LET'S SCROLL</p><p><img src="/artfinger/img/down.png"></p></a></div>    
+    </div>
+  </section>
+
+  <section class="vertical-scrolling">
+<div class="first-scroll">
+<!-- 메인 이미지 네번째 이미지 #을 지우고 링크를 넣어주세요.--><a class="firstimg" style='background: url("/artfinger/main/new/main04.png") no-repeat 50% 50% / cover;' href="/product_all.html"></a>
+         
+<!-- ************** 메인이미지 끝-->
+  
+      <div id="main_footer">
+     <!--@import(/footer.html)-->
+    </div>
+   
+    </div>
+  </section>
+         
+    
+  
+</div>
+
+
+<hr class="layout" />
+
+
+
+<!-- 참고: 결제를 위한 필수 영역 -->
+<div id="progressPaybar" style="display:none;">
+    <div id="progressPaybarBackground" class="layerProgress"></div>
+    <div id="progressPaybarView">
+        <div class="box">
+            <p class="graph">
+                <span><img src="http://img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif" alt="현재 결제가 진행중입니다." /></span>
+                <span><img src="http://img.echosting.cafe24.com/skin/base/layout/img_loading.gif" alt="" /></span>
+            </p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br />
+                주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- //참고 -->
+
+<div module="Layout_multishopShipping">
+    <!--@css(/layout/basic/css/ec-base-layer.css)-->
+    <!--@css(/css/module/layout/multishopShipping.css)-->
+    <!--@js(/js/module/layout/multishopShipping.js)-->
+    <div class="dimmed"></div>
+    <div class="worldshipLayer ec-base-layer">
+        <div class="header">
+            <h3>WORLD SHIPPING</h3>
+        </div>
+        <div class="content">
+            <p class="desc">PLEASE SELECT THE DESTINATION COUNTRY AND LANGUAGE :</p>
+            <div class="select">
+                <select module="Layout_multishopShippingCountrylist">
+                    <option value="{$country_code}"{$country_default_selected}>SHIPPING TO : {$country_name}</option>
+                    <option value="{$country_code}"{$country_default_selected}>SHIPPING TO : {$country_name}</option>
+                </select>
+            </div>
+            <div class="select">
+                <select module="Layout_multishopShippingLanguagelist">
+                    <option value="{$shop_domain}"{$shop_default_selected}>LANGUAGE : {$shop_language_name}</option>
+                    <option value="{$shop_domain}"{$shop_default_selected}>LANGUAGE : {$shop_language_name}</option>
+                </select>
+            </div>
+        </div>
+        <div class="ec-base-button">
+            <a href="#none"><img src="//img.echosting.cafe24.com/skin/base_ko_KR/link/btn_go.gif" alt="GO" /></a>
+        </div>
+        <a href="#none" class="close"><img src="http://img.echosting.cafe24.com/skin/base/common/btn_close.gif" width="13" height="13" alt="close" /></a>
+    </div>
+</div>
+
+<div module="Layout_conversionPc">
+    <!--@css(/css/module/layout/conversionpc.css)-->
+    <a href="{$mobile_url}">모바일 화면보기</a>
+</div>
+    
+     <script src="/web/upload/js/fullpage.js"></script>
+	<script src="/web/upload/js/fullpagemin.js"></script>
+
+
+
+	<script type="text/javascript">
+		// variables
+var $header_top = $('.header-top');
+var $nav = $('nav');
+
+// toggle menu 
+
+
+// fullpage customization
+$('#fullpage').fullpage({
+ //sectionsColor: ['#B8AE9C', '#348899', '#F2AE72', '#5C832F', '#B8B89F'],
+  sectionSelector: '.vertical-scrolling',
+  slideSelector: '.horizontal-scrolling',
+  navigation: true,
+  slidesNavigation: true,
+  controlArrows: false,
+  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+  menu: '#menu',
+
+  afterLoad: function(anchorLink, index) {
+    $header_top.css('background', 'rgba(0, 47, 77, .3)');
+    $nav.css('background', 'rgba(0, 47, 77, .25)');
+ 
+  },
+
+
+
+  afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
+    if (anchorLink == 'fifthSection' && slideIndex == 1) {
+      $.fn.fullpage.setAllowScrolling(false, 'up');
+      $header_top.css('background', 'transparent');
+      $nav.css('background', 'transparent');
+      $(this).css('background', '#374140');
+      $(this).find('h2').css('color', 'white');
+      $(this).find('h3').css('color', 'white');
+      $(this).find('p').css({
+        'color': '#DC3522',
+        'opacity': 1,
+        'transform': 'translateY(0)'
+      });
+    }
+  },
+
+});
+	</script>
+
+
+    
+    
+    
+</body>
+</html>
+    
+    <!-- KB에스크로 이체 인증마크 적용 시작 -->
+<script>
+function onPopKBAuthMark()
+{
+window.open('','KB_AUTHMARK','height=604, width=648, status=yes, toolbar=no, menubar=no,
+ location=no');
+document.KB_AUTHMARK_FORM.action='http://escrow1.kbstar.com/quics';
+document.KB_AUTHMARK_FORM.target='KB_AUTHMARK';
+document.KB_AUTHMARK_FORM.submit();
+}
+</script>
+<form name="KB_AUTHMARK_FORM" method="get">
+<input type="hidden" name="page" value="B009111"/>
+<input type="hidden" name="cc" value="b010807:b008491"/>
+<input type="hidden" name="mHValue" value='6c6886e262537d09195aa8740b82d5d5202001122319229'/>
+</form>
+<a href="#" onclick="javascript:onPopKBAuthMark();return false;"><img src="http://img1.kbstar.com/img/escrow/escrowcmark.gif" border="0"/></a>
+<!-- KB에스크로 이체 인증마크 적용 종료 -->
